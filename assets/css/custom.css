@@ -1,0 +1,63 @@
+/* Change Brand Font Name */
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* Change menu color */
+.navbar #myMenu .navbar-nav .nav-item a {
+	color: #fff;
+}
+
+/* Change menu hover */
+.navbar #myMenu .navbar-nav .nav-item a:hover {
+	color: #f0aab1;
+}
+
+/* Jumbotron Backgroud Image Responsive */
+.back-image {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 90vh;
+	margin-top: 74px;
+	border-radius: 0px;
+}
+
+/* Headeing Image Sub-Title */
+.font-italic {
+	font-size: 24px;
+}
+
+a{
+	color: black;
+}
+
+.active {
+	color: white;
+	background-color: #dc3545;
+}
+
+a:hover {
+	color: #f26571;
+}
+
+/* Margin for Welcome to OSMS */
+.mainHeading {
+	margin-top: 50px;
+}
+
+/* */
+@media only screen and (max-width: 600px){
+	.myClass {
+	margin-top: 350px;
+	text-align: center;
+	}	
+}
+
+.custom-margin {
+	margin-top: 8vh;
+}
+
+
